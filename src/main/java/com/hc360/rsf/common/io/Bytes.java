@@ -810,7 +810,7 @@ public class Bytes {
 	 * @param bytes
 	 *            source.
 	 * @return compressed byte array.
-	 * @throws IOException.
+	 * @throws IOException
 	 */
 	public static byte[] zip(byte[] bytes) throws IOException {
 		UnsafeByteArrayOutputStream bos = new UnsafeByteArrayOutputStream();
